@@ -1,4 +1,4 @@
-# service-template
+# channarr
 
 A production-minded Rust service template with a small set of strong defaults.
 
@@ -21,7 +21,7 @@ worked well for me in production.
 
 This repository is intended to be used as a GitHub template repository or with
 `cargo generate`. Create a new repository from it, then replace
-`service-template` with the actual service and binary name.
+`channarr` with the actual service and binary name.
 
 ## ✦ Philosophy
 
