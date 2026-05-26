@@ -1,6 +1,8 @@
 use axum::{Router, http::StatusCode, routing::get};
 
-pub fn router() -> Router {
+use crate::state::AppState;
+
+pub fn router() -> Router<AppState> {
     Router::new().route("/health", get(health))
 }
 
