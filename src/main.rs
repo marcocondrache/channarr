@@ -1,5 +1,6 @@
 mod app;
 mod database;
+pub mod m3u;
 mod server;
 mod state;
 mod telemetry;
